@@ -3,7 +3,9 @@ package launcher.localLauncher;
 import java.util.Observer;
 
 import vue.ChessGameCmdLine;
+import controler.controlerLocal.ChessGameControler;
 import controler.ChessGameControlers;
+import model.ChessGame;
 
 
 
@@ -16,7 +18,7 @@ public class LauncherCmdLine {
 	public static void main(String[] args) {		
 		
 		ChessGame model;
-		ChessGameControlers controler;	
+		ChessGameControler controler;	
 		ChessGameCmdLine vue;
 		
 		model = new ChessGame();	

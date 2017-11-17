@@ -1,5 +1,6 @@
-package controler;
+package controler.controlerLocal;
 
+import controler.ChessGameControlers;
 import model.ChessGame;
 import model.Coord;
 
@@ -7,8 +8,8 @@ public class ChessGameControler implements ChessGameControlers {
 
 	private ChessGame chessGame;
 	
-	public ChessGameControler() {
-		this.chessGame= new ChessGame();
+	public ChessGameControler(ChessGame chessGame) {
+		this.chessGame= chessGame;
 	}
 	
 	@Override
