@@ -11,8 +11,6 @@ package model;
  * = mise en oeuvre du DP Bridge
  */
 public interface Game  {
-
-	
 	/**
 	 * @param x
 	 * @param y

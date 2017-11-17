@@ -2,8 +2,8 @@ package model;
 
 public class PionNoir extends AbstractPion{
 
-	public PionNoir(String name, Couleur couleur, Coord coord) {
-		super(name,couleur, coord);
+	public PionNoir( Couleur couleur, Coord coord) {
+		super(couleur, coord);
 		// TODO Auto-generated constructor stub
 	}
 

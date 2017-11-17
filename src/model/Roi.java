@@ -13,8 +13,8 @@ public class Roi extends AbstractPiece {
 	 * @param couleur_de_piece
 	 * @param coord
 	 */
-	public Roi(String name, Couleur couleur_de_piece, Coord coord) {
-		super(name, couleur_de_piece, coord);
+	public Roi( Couleur couleur_de_piece, Coord coord) {
+		super( couleur_de_piece, coord);
 	}
 
 	@Override

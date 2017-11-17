@@ -13,18 +13,16 @@ public abstract class AbstractPiece implements Pieces {
 
 	private int x, y;
 	private Couleur couleur;
-	private String name; // Surtout utile pour affichage en mode console
 
 	/**
 	 * @param name
 	 * @param couleur
 	 * @param coord
 	 */
-	public AbstractPiece(String name, Couleur couleur, Coord coord){
+	public AbstractPiece( Couleur couleur, Coord coord){
 		this.x = coord.x;
 		this.y = coord.y;
 		this.couleur=couleur;
-		this.name=name;
 	}
 
 	/* (non-Javadoc)
